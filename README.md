@@ -1,40 +1,40 @@
-# Session Management in React Application
+# Gestion de session dans une application React
 
-This project demonstrates the implementation of secure session and cookie mechanisms in a React application to manage user sessions.
+Ce projet démontre l'implémentation de mécanismes de session et de cookies sécurisés dans une application React pour gérer les sessions utilisateur.
 
-## Overview
+## Aperçu
 
-The goal of this project is to showcase how session management can be achieved in a frontend application using React. It includes functionalities such as:
+L'objectif de ce projet est de présenter comment la gestion de session peut être réalisée dans une application frontend utilisant React. Il inclut des fonctionnalités telles que :
 
-- Storing session data using `localStorage`.
-- Setting and removing secure HttpOnly cookies using `js-cookie`.
-- Simulating session hijacking to demonstrate security measures.
+- Stockage des données de session en utilisant `localStorage`.
+- Définition et suppression de cookies sécurisés HttpOnly en utilisant `js-cookie`.
+- Simulation de tentative de détournement de session pour démontrer les mesures de sécurité.
 
-## Features
+## Fonctionnalités
 
-- **Session Management:** Utilizes `localStorage` to store and retrieve session data.
-- **Cookie Security:** Sets secure HttpOnly cookies to manage user sessions.
-- **Simulation:** Simulates a session hijack attempt for testing purposes.
+- **Gestion de session :** Utilisation de `localStorage` pour stocker et récupérer les données de session.
+- **Sécurité des cookies :** Configuration de cookies sécurisés HttpOnly pour gérer les sessions utilisateur.
+- **Simulation :** Simule une tentative de détournement de session à des fins de test.
 
-## Usage
+## Utilisation
 
-1. **Installation:** Clone the repository and install dependencies using `npm install`.
+1. **Installation :** Clonez le dépôt et installez les dépendances en utilisant `npm install`.
 
-2. **Run the Application:** Start the React application by running `npm start`.
+2. **Lancer l'application :** Démarrez l'application React en exécutant `npm start`.
 
-3. **Test Session and Cookies:**
-   - Navigate to the test page to interact with the session functionalities.
-   - Click "Login" to simulate a user login and set session data.
-   - Click "Logout" to clear session data.
-   - Use "Simulate Hijacking" to test unauthorized access to session data.
+3. **Tester les sessions et les cookies :**
+   - Accédez à la page de test pour interagir avec les fonctionnalités de session.
+   - Cliquez sur "Login" pour simuler une connexion utilisateur et définir des données de session.
+   - Cliquez sur "Logout" pour effacer les données de session.
+   - Utilisez "Simuler un détournement" pour tester l'accès non autorisé aux données de session.
 
-## File Structure
+## Structure des fichiers
 
 cookies-session/
 ├── src/
 │ ├── components/
 │ │ ├── SessionTestPage.js
-│ │ └── ... (other components)
+│ │ └── ... (autres composants)
 │ ├── utils/
 │ │ └── SessionManager.js
 │ ├── App.js
@@ -42,13 +42,15 @@ cookies-session/
 └── package.json
 
 
-## Dependencies
+## Dépendances
 
-- `React`: Frontend library for building user interfaces.
-- `js-cookie`: Library for handling browser cookies in JavaScript.
+- `React` : Bibliothèque frontend pour la création d'interfaces utilisateur.
+- `js-cookie` : Bibliothèque pour la manipulation de cookies navigateur en JavaScript.
 
-## Notes
+## Remarques
 
-This project focuses on frontend implementation. Comprehensive security assessment might require backend testing for complete session security evaluation.
+Ce projet se concentre sur l'implémentation frontend. Une évaluation de sécurité complète pourrait nécessiter des tests backend pour une évaluation complète de la sécurité des sessions.
+
 
 Pour toute question ou clarification supplémentaire, veuillez me contacter à [maxime.lombard@live.com.mx].
+
